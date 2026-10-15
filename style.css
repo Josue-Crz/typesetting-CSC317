@@ -1,12 +1,14 @@
-/* remove thic comment to add @import font or CSS variables at the top of this file */
+@import url('https://fonts.googleapis.com/css?family=Sofia');
 * {
   box-sizing: border-box;
+  font-size: 10px
 }
 
 body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  line-height: 1.5;
 }
 
 /* Layout */
@@ -42,4 +44,43 @@ header, footer {
 }
 
 /* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+header > h1{
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Sofia', sans-serif;
+}
 
+section > h2{
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Sofia', sans-serif;
+}
+
+aside > h2{
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Sofia', sans-serif;
+}
+
+aside > p{
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Sofia', sans-serif;
+}
+
+aside > ul{
+  color: r
+}
+
+section > p > a{
+  color: red;
+}
+
+section > ol > li > a{
+  color: red;
+}
+
+/*basically targets every first and third body very cool css selector*/
+section > p:nth-of-type(2n + 1){
+  text-indent: 1.25rem;
+}
