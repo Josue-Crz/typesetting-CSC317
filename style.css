@@ -81,6 +81,11 @@ section > ol > li > a{
   color: red;
 }
 
+section > ol > li > a:hover{
+  color: blue;
+  text-decoration: none;
+}
+
 /*basically targets every first and third body very cool css selector*/
 section > p:nth-of-type(2n + 1){
   text-indent: 1.25rem;
@@ -124,6 +129,11 @@ aside > p > a{
   margin-left: 10%;
 }
 
+aside > ul > li > a:hover{
+  text-decoration: none;
+  color: blue;
+}
+
 aside > ul{
   list-style-type: square;
 }
@@ -144,3 +154,10 @@ nav > ul > li > a{
   font-size: 24px;
 }
 
+/*cool hovering stuff*/
+nav > ul > li > a:hover{
+  color: blue;
+}
+nav > ul > li:hover{
+  border: 1px solid blue;
+}
