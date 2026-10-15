@@ -69,7 +69,8 @@ aside > p{
 }
 
 aside > ul{
-  color: r
+  font-size: 14px;
+  margin-left: 10%;
 }
 
 section > p > a{
@@ -126,3 +127,20 @@ aside > p > a{
 aside > ul{
   list-style-type: square;
 }
+
+nav > ul > li{
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 10px;
+  border: 1px solid red;
+  text-align: center;
+  font-size: 48px;
+  padding: 5px;
+}
+
+nav > ul > li > a{
+  color: red;
+  text-decoration: none;
+  font-size: 24px;
+}
+
