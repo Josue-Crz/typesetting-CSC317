@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sofia');
 * {
   box-sizing: border-box;
-  font-size: 10px
+  font-size: 16px
 }
 
 body {
@@ -90,6 +90,39 @@ section > p:nth-of-type(2n + 1){
   width: 8px;
 }
 
-p{
+
+
+p > a:hover{
+  color:  blue;
+  text-decoration: none;
+
+}
+
+p >a:visited{
+  color: blue;
+}
+
+p > a:focus{
   outline: none;
+}
+
+p > a:active{
+  color: black;
+}
+
+aside > ul > li > a{
+  color: red;
+}
+
+aside > p{
+  color: red;
+  text-align: left;
+}
+
+aside > p > a{
+  margin-left: 10%;
+}
+
+aside > ul{
+  list-style-type: square;
 }
